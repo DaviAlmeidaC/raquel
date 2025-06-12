@@ -1,0 +1,50 @@
+.home-container {
+  background-color: #001f5f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.home-title {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+}
+
+.achar-vaga-btn {
+  background-color: #e74c3c;
+  width: 120px;
+  height: 120px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.icon-carro {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.btn-text {
+  color: white;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.carro-img {
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+  object-fit: cover;
+}

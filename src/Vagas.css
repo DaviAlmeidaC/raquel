@@ -1,0 +1,91 @@
+.vagas-page {
+  background-color: #001f5f;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 16px;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header com ícone + título */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.location-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Linhas de vagas */
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+/* Grade central */
+.mid-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+.grid-row {
+  display: flex;
+  gap: 8px;
+}
+
+/* Cada vaga */
+.slot {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px #001f5f; /* contorno escuro entre as vagas */
+}
+/* Cores */
+.verde   { background-color: #7bed9f; }
+.vermelho { background-color: #ff6b6b; }
+
+/* Linha de setas */
+.arrow-row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 8px 0;
+}
+.arrow {
+  font-size: 24px;
+  line-height: 1;
+}
+
+/* Linha divisória antes da legenda */
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 16px 0;
+}
+
+/* Legenda */
+.legenda {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.quad {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+}

@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #001f3f;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.vaga-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.vaga {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+}
