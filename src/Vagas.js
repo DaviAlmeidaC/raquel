@@ -1,4 +1,3 @@
-// src/Vagas.js
 import React, { useEffect, useState } from 'react';
 import { database, ref, onValue } from './firebase';
 import './Vagas.css';
@@ -34,10 +33,9 @@ export default function Vagas() {
 
   return (
     <div className="vagas-page">
-
       {/* Header */}
       <div className="header">
-        <img src="/location-icon.png" alt="" className="location-icon" />
+        <img src="/Novo Projeto 1.png" alt="" className="location-icon" />
         <h2>Nome do local</h2>
       </div>
 
@@ -45,9 +43,7 @@ export default function Vagas() {
       {top.length > 0 && (
         <div className="row top-row">
           {top.map(({ id, status }) => (
-            <div key={id} className={`slot ${status}`}>
-              {/* opcional: mostrar id */}
-            </div>
+            <div key={id} className={`slot ${status}`} />
           ))}
         </div>
       )}
@@ -86,7 +82,7 @@ export default function Vagas() {
         </div>
       )}
 
-      <hr/>
+      <hr />
 
       {/* Legenda */}
       <div className="legenda">

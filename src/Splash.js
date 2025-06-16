@@ -17,7 +17,8 @@ export default function Splash() {
   return (
     <div className="splash-screen">
       <img
-        src="/splash-icon.png"
+        src="/blablablao 1.png"
+
         alt="Logo"
         className="splash-logo"
       />
